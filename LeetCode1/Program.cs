@@ -10,7 +10,7 @@ class Program
         int [] result = Calc(nums, target);
         foreach (var n in result)
         {
-            Console.WriteLine(n);
+            Console.WriteLine($"{n}");
         }
     }
 
